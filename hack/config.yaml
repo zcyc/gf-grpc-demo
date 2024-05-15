@@ -1,0 +1,12 @@
+# GoFrame CLI tool configuration.
+gfcli:
+  gen:
+    dao:
+      - link: "pgsql:postgres:postgres@tcp(localhost:5432)/test"
+        tables: "user"
+        descriptionTag: true
+        noModelComment: true
+
+    pbentity:
+      - link: "pgsql:postgres:postgres@tcp(localhost:5432)/test"
+        tables: "user"

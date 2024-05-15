@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gf-grpc-template
+  labels:
+    app: gf-grpc-template
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gf-grpc-template
+  template:
+    metadata:
+      labels:
+        app: gf-grpc-template
+    spec:
+      containers:
+        - name: main
+          image: gf-grpc-template
+          imagePullPolicy: Always
+

@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gf-grpc-template
+spec:
+  template:
+    spec:
+      containers:
+        - name: main
+          image: gf-grpc-template:develop
