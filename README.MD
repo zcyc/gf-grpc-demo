@@ -1,4 +1,4 @@
-# gf-grpc-template
+# gf-grpc-demo
 
 ### Docs
 [gf 官方文档](https://goframe.org)
